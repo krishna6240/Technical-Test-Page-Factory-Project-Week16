@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <test name="Technical Test">
+        <parameter name="securityQuestion" value="Favourite pet's name"></parameter>
+        <parameter name="securityAnswer" value="Puppy"></parameter>
+        <parameter name="expectedMessage" value="Your submission has been received."></parameter>
+        <classes>
+            <class name="com.jotform.form.testsuite.JetFormTest"></class>
+        </classes>
+    </test>
+</suite>
